@@ -1,0 +1,46 @@
+{
+  "React functional component": {
+    "prefix": "rfc",
+    "body": [
+      "function ${TM_FILENAME_BASE}() {",
+      "    return (",
+      "        <>",
+      "        </>",
+      "    )",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE};"
+    ]
+  },
+
+  // useState
+  "React useState": {
+    "prefix": "ust",
+    "body": ["const [${1}, set${1}] = useState({}${2});"]
+  },
+  "IMPORT React useState": {
+    "prefix": "iust",
+    "body": ["import { useState${1} } from 'react';"]
+  },
+
+  // useEffect
+  "React useEffect": {
+    "prefix": "usf",
+    "body": ["useEffect( () => {", "  ${1}", "  return () => {}", "}, [${2}])"]
+  },
+  "IMPORT React useEffect": {
+    "prefix": "iusf",
+    "body": ["import { useEffect${1} } from 'react';"]
+  },
+
+  // useReft
+  "React useRef": {
+    "prefix": "urf",
+    "body": ["const ${1} = useRef(null${2})"]
+  },
+  "IMPORT React useRef": {
+    "prefix": "iurf",
+    "body": ["import { useRef${1} } from 'react';"]
+  },
+
+}
