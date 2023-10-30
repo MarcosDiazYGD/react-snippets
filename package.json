@@ -2,6 +2,10 @@
   "name": "reactsnippets",
   "displayName": "React faster",
   "description": "Codifica con React fast mucho mas rápido, no te aprendas snippets largos.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarcosDiazYGD/react-snippets.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.83.0"
