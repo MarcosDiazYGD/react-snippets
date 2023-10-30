@@ -1,20 +1,4 @@
 ## snippets
-
-<style> 
-    * {
-        color: #21232a;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
-
-    table {
-        width: 100%;
-        text-align: center;
-    }
-
-    td {
-        width: 50%;
-    }
-</style>
 <table>
     <tr>
     <th>Snippet</th>
