@@ -10,37 +10,52 @@
       "}",
       "",
       "export default ${TM_FILENAME_BASE};"
-    ]
-  },
+    ],
+    "description": "Create an arrow function component"
 
-  // useState
-  "React useState": {
+  },
+"React arrow function component": {
+    "prefix": "afc",
+    "body": [
+      "const ${TM_FILENAME_BASE} = () => {",
+      "    return (",
+      "        <>",
+      "        </>",
+      "    )",
+      "}",
+      "",
+      "export default ${TM_FILENAME_BASE};"
+    ],
+    "description": "Create a functional component"
+
+  },
+  // useState 
+ "React useState": {
     "prefix": "ust",
-    "body": ["const [${1}, set${1}] = useState({}${2});"]
+    "body": [
+      "const [${1:state}, set${1/^(.)/${1:/capitalize}/}] = useState(${2:''});"
+    ],
+    "description": "Create a useState hook"
   },
-  "IMPORT React useState": {
-    "prefix": "iust",
-    "body": ["import { useState${1} } from 'react';"]
-  },
-
   // useEffect
   "React useEffect": {
     "prefix": "usf",
-    "body": ["useEffect( () => {", "  ${1}", "  return () => {}", "}, [${2}])"]
-  },
-  "IMPORT React useEffect": {
-    "prefix": "iusf",
-    "body": ["import { useEffect${1} } from 'react';"]
-  },
+    "body": ["useEffect( () => {", "  ${1}", "  return () => {}", "}, [${2}])"],
+    "description": "Create a useEffect hook"
 
+  },
   // useReft
   "React useRef": {
     "prefix": "urf",
-    "body": ["const ${1} = useRef(null${2})"]
+    "body": ["const ${1} = useRef(null${2})"],
+    "description": "Create a useRef hook"
   },
-  "IMPORT React useRef": {
-    "prefix": "iurf",
-    "body": ["import { useRef${1} } from 'react';"]
+  // callback () => {}
+  "callback": {
+    "prefix": "arrow",
+    "body": ["(${1:e}) => {${2}}"],
+    "description": "Create a arrow function"
   },
+  
 
 }
