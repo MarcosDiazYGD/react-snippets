@@ -1,35 +1,21 @@
-## snippets
-<table>
-    <tr>
-    <th>Snippet</th>
-    <th>Description</th>
-    </tr>
-    <tr>
-    <td><span>rfc</span></td>
-    <td><p>Fuctional component</p></td>
-    </tr>
-    <tr>
-    <td><span>ust</span></td>
-    <td><p>useState</p></td>
-    </tr>
-    <tr>
-    <td><span>usf</span></td>
-    <td><p>useEffect</p></td>
-    </tr>
-    <tr>
-    <td><span>urf</span></td>
-    <td><p>useRef</p></td>
-    </tr>
-    <tr>
-    <td><span>iust</span></td>
-    <td><p>import useState</p></td>
-    </tr>
-    <tr>
-    <td><span>iusf</span></td>
-    <td><p>import useEffect</p></td>
-    </tr>
-    <tr>
-    <td><span>iurf</span></td>
-    <td><p>import useReft</p></td>
-    </tr>
-</table>
+# Lista de Snippets
+
+Los snippets de JavaScript también están habilitados para cuando se trabaje con TypeScript.
+
+## JavaScript
+
+| Snippet | Descripción |
+| ------- | ----------- |
+| `rfc`   | Crea un componente funcional |
+| `usf`   | Crea un hook useEffect |
+| `urf`   | Crea un hook useRef |
+| `arrow` | Crea una función flecha o callback |
+
+## TypeScript
+
+| Snippet  | Descripción |
+| -------- | ----------- |
+| `trfc`   | Crea un componente funcional con tipado |
+| `tafc`   | Crea un componente funcional con tipado |
+| `interProp` | Crea una interface para las props de los componentes |
+| `typeProp`  | Crea un un type para las props de los componentes |
