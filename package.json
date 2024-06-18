@@ -1,12 +1,14 @@
 {
-  "name": "reactsnippets",
+  "name": "react-faster-snippets",
   "displayName": "React faster",
   "description": "Codifica con React fast mucho mas rápido, no te aprendas snippets largos.",
+  "icon": "assets/img/logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/MarcosDiazYGD/react-snippets.git"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "publisher": "PassionForProgramming",
   "engines": {
     "vscode": "^1.83.0"
   },
@@ -17,11 +19,15 @@
     "snippets": [
       {
         "language": "javascriptreact",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/javascript-snippets.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/javascript-snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/typescript-snippets.code-snippets"
       }
     ]
   }
